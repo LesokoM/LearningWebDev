@@ -1,7 +1,69 @@
 body {
-  background-image: url(project_4folder\src\styles.css);
-}
+  background-image: url("../images/rocket.jpg");
 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1#website-title {
   font-family: "Bebas Neue", sans-serif;
+  margin-left: 5%;
+  font-size: 45px;
+}
+
+.section-1 {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 0px;
+  padding-right: 50px;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-top: -50px;
+}
+
+ul {
+  list-style: none;
+  font-family: "Abel", sans-serif;
+  text-align: right;
+  position: relative;
+  top: -71px;
+  right: 10%;
+  font-size: 20px;
+}
+li {
+  display: inline;
+  text-align: right;
+  padding: 20px;
+}
+
+.section-2 {
+  display: block;
+  font-family: "Abel", sans-serif;
+  color: white;
+  position: relative;
+
+  background-color: rgba(0, 0, 0, 0.311);
+  padding-top: 3%;
+  padding-bottom: 20%;
+  padding-left: 3%;
+}
+.section-2 h2 {
+  font-size: 60px;
+  margin-top: 200px;
+  position: relative;
+  left: 15%;
+}
+
+.section-2 p {
+  font-size: 30px;
+  position: relative;
+  left: 15%;
+}
+
+button {
+  position: relative;
+  left: 15%;
+  color: black;
+  font-size: 20px;
+  font-weight: 400px;
+  padding: 10px;
 }
